@@ -38,10 +38,10 @@ COPY public. "tenktup1" FROM 'C:\Program Files\PostgreSQL\13\scripts\Tenktup1.cs
 3. The table should be created and confirmed with the view data icon in the PostgreSQL.
 
 
-### System Information\
+### System Information \
 For the system selection, PostgreSQL was used. PostgreSQL is one of the most frequently used relational database management systems by developers today. While we have basic knowledge about this system, we wish to further learn about and evaluate the system by using different parameters. 
 
-### Lessons and Issues\
+### Lessons and Issues \
 We’ve encountered many challenges along the way, but we enjoyed the learning process.
 
 Issues:
