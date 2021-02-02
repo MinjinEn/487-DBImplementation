@@ -13,7 +13,7 @@ The data was generated using Neha’s python scripted program for extracting sca
 The process of loading the csv files into the pgAdmin database required the following commands. 
 1. Create the Wisconsin Benchmark Table with its 16 attributes
 
-    ![](image/createTable.PNG)
+    ![](images/createTable.PNG)
 
 2. Write a SQL statement to load the csv files into the table
 COPY public. "tenktup1" FROM 'C:\Program Files\PostgreSQL\13\scripts\Tenktup1.csv' csv HEADER;
