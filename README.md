@@ -16,7 +16,8 @@ The process of loading the csv files into the pgAdmin database required the foll
     ![](images/createTable.PNG)
 
 2. Write a SQL statement to load the csv files into the table
-    `COPY public. "tenktup1" FROM 'C:\Program Files\PostgreSQL\13\scripts\Tenktup1.csv' csv HEADER; `
+
+    ```COPY public. "tenktup1" FROM 'C:\Program Files\PostgreSQL\13\scripts\Tenktup1.csv' csv HEADER; ```
 
 3. The table should be created and confirmed with the view data icon in the PostgreSQL.
 
@@ -24,7 +25,25 @@ The process of loading the csv files into the pgAdmin database required the foll
 ### System Information 
 For the system selection, PostgreSQL was used. PostgreSQL is one of the most frequently used relational database management systems by developers today. While we have basic knowledge about this system, we wish to further learn about and evaluate the system by using different parameters. 
 
+**Display snippets of the Onektup Table**
+![](images/1kGeneration1.PNG)
+![](images/1kGenerated2.PNG)
+
+**Display part of the Tenktup1 Table**
+![](images/10kGeneration.PNG)
+
+**Display the Onektup Table from pgAdmin**
+![](onektuploadedintable.PNG)
+
+**Display the Tenktup1 Table from pgAdmin**
+![](tenktup1loadedintable.PNG)
+
+**Display the Tenktup2 Table from pgAdmin**
+![](tenktup2loadedintable.PNG)
+
+
 ### Lessons and Issues 
+
 We’ve encountered many challenges along the way, but we enjoyed the learning process.
 
 **Issues:**
