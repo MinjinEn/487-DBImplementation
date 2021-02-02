@@ -16,7 +16,7 @@ The process of loading the csv files into the pgAdmin database required the foll
     ![](images/createTable.PNG)
 
 2. Write a SQL statement to load the csv files into the table
-` COPY public. "tenktup1" FROM 'C:\Program Files\PostgreSQL\13\scripts\Tenktup1.csv' csv HEADER; `
+    `COPY public. "tenktup1" FROM 'C:\Program Files\PostgreSQL\13\scripts\Tenktup1.csv' csv HEADER; `
 
 3. The table should be created and confirmed with the view data icon in the PostgreSQL.
 
