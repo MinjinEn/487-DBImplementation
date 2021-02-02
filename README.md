@@ -12,7 +12,8 @@ The data was generated using Neha’s python scripted program for extracting sca
 
 The process of loading the csv files into the pgAdmin database required the following commands. 
 1. Create the Wisconsin Benchmark Table with its 16 attributes
-'''	CREATE TABLE TENKTUP1
+'''
+    CREATE TABLE TENKTUP1
     ( 
         unique1 integer NOT NULL,
         unique2 integer NOT NULL PRIMARY KEY,
@@ -30,7 +31,8 @@ The process of loading the csv files into the pgAdmin database required the foll
         stringu1 char(52) NOT NULL,
         stringu2 char(52) NOT NULL,
         string4 char(52) NOT NULL
-    ) '''
+    )
+'''
 
 2. Write a SQL statement to load the csv files into the table
 COPY public. "tenktup1" FROM 'C:\Program Files\PostgreSQL\13\scripts\Tenktup1.csv' csv HEADER;
