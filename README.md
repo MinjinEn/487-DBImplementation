@@ -23,7 +23,7 @@ The process of loading the csv files into the pgAdmin database required the foll
 
 
 ### System Information 
-For the system selection, PostgreSQL was used. PostgreSQL is one of the most frequently used relational database management systems by developers today. While we have basic knowledge about this system, we wish to further learn about and evaluate the system by using different parameters. 
+For the system selection, we chose to use PostgreSQL. PostgreSQL is one of the most frequently used relational database management systems by developers today. While we have basic knowledge about this system, we wish to further learn about and evaluate the system by using different parameters. 
 
 ***```Display snippets of the Onektup Table```***
 
