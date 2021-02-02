@@ -12,13 +12,13 @@ The data was generated using Neha’s python scripted program for extracting sca
 
 The process of loading the csv files into the pgAdmin database required the following commands. 
 1. Create the Wisconsin Benchmark Table with its 16 attributes
-'''
-    CREATE TABLE TENKTUP1
-    ( 
-        unique1 integer NOT NULL,
-        unique2 integer NOT NULL PRIMARY KEY,
-        two integer NOT NULL,
-        four integer NOT NULL,
+
+>    CREATE TABLE TENKTUP1
+>    ( 
+>        unique1 integer NOT NULL,
+>        unique2 integer NOT NULL PRIMARY KEY,
+>        two integer NOT NULL,
+>        four integer NOT NULL,
         ten integer NOT NULL,
         twenty integer NOT NULL,
         hundred integer NOT NULL,
