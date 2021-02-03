@@ -70,7 +70,7 @@ We’ve encountered many challenges along the way, but we enjoyed the learning p
 
 1. ***```Google Platform project created and VM instance set up```***
 
-![](images/VMpostgres1.PNG)
+![](images/VMpostgres1.png)
 
 2. Install PostgreSQL on VM. Firewall rule was created to enable traffic. Set up information found at the following link:
 `sudo apt -y install postgresql postgresql-client postgresql-contrib`
@@ -78,6 +78,6 @@ We’ve encountered many challenges along the way, but we enjoyed the learning p
 
 3. ***```Connect to PostgreSQL from VM```***
 
-![](images/VMpostgres2.PNG)
+![](images/VMpostgres2.png)
 
 
