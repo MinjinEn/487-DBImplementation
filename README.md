@@ -69,12 +69,15 @@ We’ve encountered many challenges along the way, but we enjoyed the learning p
 ## Google Platform & Setting up PostgreSQL on Compute Engine
 
 1. ***```Google Platform project created and VM instance set up```***
+
 ![](images/VMpostgres1.PNG)
 
-2. Install PostgreSQL on VM. Firewall rule was created to enable traffic.
-'sudo apt -y install postgresql postgresql-client postgresql-contrib'
+2. Install PostgreSQL on VM. Firewall rule was created to enable traffic. Set up information found at the following link:
+`sudo apt -y install postgresql postgresql-client postgresql-contrib`
+`https://cloud.google.com/community/tutorials/setting-up-postgres`
 
 3. ***```Connect to PostgreSQL from VM```***
+
 ![](images/VMpostgres2.PNG)
 
 
