@@ -66,7 +66,15 @@ We’ve encountered many challenges along the way, but we enjoyed the learning p
  - Generate benchmark data. Initially, we used a program to generate data, but it was not scalable. We later fixed the issue by using a python program that was scalable and could generate all the different data.
  - Was able to successfully set up the system using PostgreSQL and get the initial data set loaded into the system
 
-### Google Platform & Setting up PostgreSQL on Compute Engine
+## Google Platform & Setting up PostgreSQL on Compute Engine
 
+1. ***```Google Platform project created and VM instance set up```***
+![](images/VMpostgres1.PNG)
+
+2. Install PostgreSQL on VM. Firewall rule was created to enable traffic.
+'sudo apt -y install postgresql postgresql-client postgresql-contrib'
+
+3. ***```Connect to PostgreSQL from VM```***
+![](images/VMpostgres2.PNG)
 
 
