@@ -52,20 +52,6 @@ For the system selection, we chose to use PostgreSQL. PostgreSQL is one of the m
 
 ![](images/tenktup2loadedintable.PNG)
 
-
-### Lessons and Issues 
-
-We’ve encountered many challenges along the way, but we enjoyed the learning process.
-
-***Issues:***
- - **pgAdmin 4 would not start up or load:** Some technological issues we ran into were while downloading PostgreSQL and running pgAdmin 4. After downloading a missing a registry key and re-installing the system, pgAdmin 4 was able to start up. 
- - **Permission error:** While creating tables and attempting to upload the csv files, pgAdmin 4 gave a folder access permission error. We found only one fix that worked for us. By placing .cvs files into the PostgreSQL program file folder. [ i.e. C:\Program Files (x86)\PostgreSQL\10\scripts ]
- - **Data generation issues:** We downloaded a Wisconsin Benchmark data generator from the internet to get started first. In addition, we were able to generate csv files by implementing some codes in the generator. However, we were unable to load data from the csv files into the PostgreSQL due to two errors which were pgAdmin folder access permission and invalid byte sequence. Later, the issue was resolved after a conversation with Neha. The issue was found to be that the data was not scalable, no header and had extra new lines. Eventually, Neha kindly shared her python script for generating the benchmark data with us. 
-
-***Lessons:***
- - Generate benchmark data. Initially, we used a program to generate data, but it was not scalable. We later fixed the issue by using a python program that was scalable and could generate all the different data.
- - Was able to successfully set up the system using PostgreSQL and get the initial data set loaded into the system
-
 ## Google Platform & Setting up PostgreSQL on Compute Engine
 
 1. ***Google Platform project created and VM instance set up***
@@ -83,5 +69,20 @@ We’ve encountered many challenges along the way, but we enjoyed the learning p
 4. ***Generate and Load data into 3 tables. As shown in the highlighted sections, data was loaded into our PostgreSQL server on the VM*** 
 
 ![](images/VMpostgres3.png)
+
+### Lessons and Issues 
+
+We’ve encountered many challenges along the way, but we enjoyed the learning process.
+
+***Issues:***
+ - **pgAdmin 4 would not start up or load:** Some technological issues we ran into were while downloading PostgreSQL and running pgAdmin 4. After downloading a missing a registry key and re-installing the system, pgAdmin 4 was able to start up. 
+ - **Permission error:** While creating tables and attempting to upload the csv files, pgAdmin 4 gave a folder access permission error. We found only one fix that worked for us. By placing .cvs files into the PostgreSQL program file folder. [ i.e. C:\Program Files (x86)\PostgreSQL\10\scripts ]
+ - **Data generation issues:** We downloaded a Wisconsin Benchmark data generator from the internet to get started first. In addition, we were able to generate csv files by implementing some codes in the generator. However, we were unable to load data from the csv files into the PostgreSQL due to two errors which were pgAdmin folder access permission and invalid byte sequence. Later, the issue was resolved after a conversation with Neha. The issue was found to be that the data was not scalable, no header and had extra new lines. Eventually, Neha kindly shared her python script for generating the benchmark data with us. 
+
+***Lessons:***
+ - Generate benchmark data. Initially, we used a program to generate data, but it was not scalable. We later fixed the issue by using a python program that was scalable and could generate all the different data.
+ - Was able to successfully set up the system using PostgreSQL and get the initial data set loaded into the system
+
+
 
 
