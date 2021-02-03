@@ -68,7 +68,7 @@ We’ve encountered many challenges along the way, but we enjoyed the learning p
 
 ## Google Platform & Setting up PostgreSQL on Compute Engine
 
-1. ***```Google Platform project created and VM instance set up```***
+1. ***Google Platform project created and VM instance set up***
 
 ![](images/VMpostgres1.png)
 
@@ -76,7 +76,7 @@ We’ve encountered many challenges along the way, but we enjoyed the learning p
 `sudo apt -y install postgresql postgresql-client postgresql-contrib`
 `https://cloud.google.com/community/tutorials/setting-up-postgres`
 
-3. ***```Connect to PostgreSQL from VM```***
+3. ***Connect to PostgreSQL from VM***
 
 ![](images/VMpostgres2.png)
 
