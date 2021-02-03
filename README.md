@@ -80,4 +80,8 @@ We’ve encountered many challenges along the way, but we enjoyed the learning p
 
 ![](images/VMpostgres2.png)
 
+4. ***Generate and Load data into 3 tables. As shown in the highlighted sections, data was loaded into our PostgreSQL server on the VM***
+
+![](images/VMpostgres3.png)
+
 
