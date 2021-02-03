@@ -66,5 +66,7 @@ We’ve encountered many challenges along the way, but we enjoyed the learning p
  - Generate benchmark data. Initially, we used a program to generate data, but it was not scalable. We later fixed the issue by using a python program that was scalable and could generate all the different data.
  - Was able to successfully set up the system using PostgreSQL and get the initial data set loaded into the system
 
+### Google Platform & Setting up PostgreSQL on Compute Engine
+
 
 
