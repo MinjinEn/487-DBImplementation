@@ -52,6 +52,7 @@ For the system selection, we chose to use PostgreSQL. PostgreSQL is one of the m
 
 ![](images/tenktup2loadedintable.PNG)
 
+
 ## Google Platform & Setting up PostgreSQL on Compute Engine
 
 1. ***Google Platform project created and VM instance set up***
